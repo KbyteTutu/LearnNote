@@ -1,2 +1,2 @@
 set ws=WScript.CreateObject("WScript.Shell")
-ws.Run ".\sync.bat",0
+ws.Run "D:\note\LearnNote\script\sync.bat",0

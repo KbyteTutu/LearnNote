@@ -116,3 +116,9 @@ rm -fr src
 ## screen命令设置xterm模式
 
 ![img](../resources/Linux_Related/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L21laXpodXh1bjczNDA=,size_16,color_FFFFFF,t_70.png)
+
+
+
+
+
+ps -ef | grep log_a | grep -v grep | awk '{print $2}' | xargs kill -9

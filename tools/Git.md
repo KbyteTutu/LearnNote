@@ -22,6 +22,12 @@ git branch (name) 创建
 git checkout -b (name) 切换
 git merge 合并
 
+## git 保存用户名
+
+```
+git config --global credential.helper store
+```
+
 ## git pull 和rebase的理解
 
 ​	首先应该先commit再pull再push，第一步保证git知道你要改什么，第二步让git获取最新，最后让git进行合并。这样是合理的逻辑

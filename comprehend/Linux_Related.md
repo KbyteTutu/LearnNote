@@ -119,6 +119,11 @@ rm -fr src
 
 
 
-
+## 批量kill命令
 
 ps -ef | grep log_a | grep -v grep | awk '{print $2}' | xargs kill -9
+
+
+
+# 
+

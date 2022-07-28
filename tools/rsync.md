@@ -37,3 +37,6 @@ sudo rsync -rvn -i --delete -c --size-only --exclude={'*.pyc','*.docx','*.log'} 
 
 ## 远程复制
 
+sudo rsync -a -e "ssh -p $remote_port" --delete  -og --chown=develop:develop /root/workspace/qradar-app/ develop@$remote_host:/home/develop/qradar/qradar-app
+
+可以用这种方式进行远程复制。其中--og --chown是控制在上传时目标文件的用户组。不设置对会有权限问题

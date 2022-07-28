@@ -20,3 +20,8 @@ https://exchange.xforce.ibmcloud.com/hub
 ## 安装rpm 包
 
 yum -y install PROTOCOL-Common-7.3-20180822130354.noarch.rpm
+
+
+
+## 利用镜像及yum获得依赖包
+

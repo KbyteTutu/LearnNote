@@ -2,6 +2,20 @@
 
 ![vim键盘图](D:/note/learn/resources/Vim/v2-f94d969f6b28441fff36049660d7c21a_720w.jpg)
 
+## 比较难记住的，还有一些自己的配置
+
+### 替换
+
+:%s/old/new
+
+### easymotion
+
+leader leader s 本地换成了;s
+
+
+
+
+
 ## 方向
 
 - hjkl 控制前后左右

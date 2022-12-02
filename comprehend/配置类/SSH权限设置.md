@@ -37,7 +37,7 @@ $ ssh-copy-id -i .ssh/id_rsa.pub 用户名字@192.168.x.xxx
 
 使用选项 *-i* ，当没有值传递的时候或者 如果 *~/.ssh/identity.pub* 文件不可访问（不存在）, *ssh-copy-id* 将显示上述的错误信息 （ -i选项会优先使用将ssh-add -L的内容）
 
-
+ssh-copy-id  -i ~/.ssh/id_rsa.pub -p 60022 "develop@10.46.177.164"
 
 
 

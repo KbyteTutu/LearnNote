@@ -20,7 +20,7 @@ $ ssh-copy-id -i .ssh/id_rsa.pub 用户名字@192.168.x.xxx
 
 **注意:** ssh-copy-id **将key写到远程机器的 ~/** .ssh/authorized_key.文件中
 
-第三步: [登录到](mailto:jsmith@local-host$)远程机器不用输入密码
+第三步: 登录到远程机器不用输入密码
 
 1.  $ ssh 用户名字@192.168.x.xxx
 2.  
@@ -28,7 +28,7 @@ $ ssh-copy-id -i .ssh/id_rsa.pub 用户名字@192.168.x.xxx
 
 常见问题：
 
-1.  ssh-copy-id -u eucalyptus -i ~eucalyptus/.ssh/id_rsa.pub [ssh 用户名字@192.168.x.xxx](mailto:eucalyptus@remote_host)
+1.  ssh-copy-id -u eucalyptus -i ~eucalyptus/.ssh/id_rsa.pub ssh 用户名字@192.168.x.xxx
 2.  第一次需要密码登录
 
 上述是给eucalyptus用户赋予无密码登陆的权利
@@ -37,7 +37,8 @@ $ ssh-copy-id -i .ssh/id_rsa.pub 用户名字@192.168.x.xxx
 
 使用选项 *-i* ，当没有值传递的时候或者 如果 *~/.ssh/identity.pub* 文件不可访问（不存在）, *ssh-copy-id* 将显示上述的错误信息 （ -i选项会优先使用将ssh-add -L的内容）
 
-ssh-copy-id  -i ~/.ssh/id_rsa.pub -p 60022 "develop@10.46.177.164"
 
 
 
+
+# ssh-copy-id  -i ~/.ssh/id_rsa.pub -p 60022 "develop@10.46.177.164"

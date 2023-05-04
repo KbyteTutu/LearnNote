@@ -52,4 +52,4 @@ UpdateHostKeys no
 ## cloudflare wrap
 bash <(curl -fsSL git.io/warp.sh) menu
 
-
+https://github.com/jinwyp/one_click_script
